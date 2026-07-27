@@ -1,8 +1,27 @@
 aid: iona
 name: IONA
-description: IONA is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: IONA (IONA Drones) is a UK-based autonomous drone delivery company building
+  the full technology stack for logistics operators. Its tilt-rotor Sonnet aircraft
+  performs VTOL from compact sites and carries up to 20 parcels up to 200 km per autonomous
+  flight. IONA pairs the aircraft with an onboard autonomy operating system, GPS/LiDAR
+  sensor-fusion precision landing, a SORA-aligned BVLOS compliance engine, an operations
+  centre for real-time fleet monitoring and analytics, and a digital twin for simulation
+  and predictive maintenance. The platform integrates with existing TMS/WMS logistics
+  systems and targets healthcare, rural/remote, express e-commerce, industrial, and
+  maritime delivery. Backed by Techstars.
 url: https://raw.githubusercontent.com/api-evangelist/iona/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://ionadrones.com/wp-content/uploads/2026/01/iona1.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Drones
+- Logistics
+- Delivery
+- Autonomous Vehicles
+- Aviation
+- Robotics
+- Healthcare Logistics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,18 @@ maintainers:
 common:
 - type: Website
   url: https://ionadrones.com/
+- type: Blog
+  url: https://ionadrones.com/category/blog/
+- type: BlogRSS
+  url: https://ionadrones.com/feed/
+- type: Support
+  url: https://ionadrones.com/contact/
+- type: PrivacyPolicy
+  url: https://ionadrones.com/policy/privacy-policy/
+- type: DomainSecurity
+  url: security/iona-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
